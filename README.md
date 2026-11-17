@@ -77,7 +77,7 @@ The capture holds four request/reply pairs over about 9 seconds.
 
 ## Capture 4: Polling vs. COV (`captures/04_cov_vs_poll.pcap`)
 
-![Packets per second: polling vs. COV](screenshots/04_poll_vs_cov_io_graph.png)
+![Packets per second: polling vs. COV](screenshots/04_cov_vs_poll_graph.png)
 
 *Polling (0-41 s) produces a constant ~2 packets per second. After subscribing with SubscribeCOV, the line drops to zero between events and rises only when I interact with the device.*
 
